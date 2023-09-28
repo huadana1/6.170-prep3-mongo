@@ -36,6 +36,8 @@ main {
   overflow: auto;
   border: 1px solid #ccc;
   padding: 1em;
+  background-color: black;
+  color: white
 }
 
 #response-text {

@@ -53,6 +53,12 @@ const operations = [
     method: "DELETE",
     fields: { id: "input" },
   },
+  {
+    name: "Get User by id",
+    endpoint: "/api/users/:id",
+    method: "GET",
+    fields: { id: "input" },
+  },
 ];
 
 type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
